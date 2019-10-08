@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarNov.EasyPost.CoreClient", "WarNov.EasyPost.CoreClient\WarNov.EasyPost.CoreClient.csproj", "{9EFDF5A3-2207-46CE-8539-4D3C7000378B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarNov.EasyPost.NetStandard", "WarNov.EasyPost.NetStandard\WarNov.EasyPost.NetStandard.csproj", "{6108E05A-FB14-4DE5-AEEE-4328980666F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EFDF5A3-2207-46CE-8539-4D3C7000378B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EFDF5A3-2207-46CE-8539-4D3C7000378B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EFDF5A3-2207-46CE-8539-4D3C7000378B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EFDF5A3-2207-46CE-8539-4D3C7000378B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6108E05A-FB14-4DE5-AEEE-4328980666F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6108E05A-FB14-4DE5-AEEE-4328980666F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6108E05A-FB14-4DE5-AEEE-4328980666F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6108E05A-FB14-4DE5-AEEE-4328980666F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E82C7C5-0A32-4983-951B-7CD1C33C877D}
+	EndGlobalSection
+EndGlobal
