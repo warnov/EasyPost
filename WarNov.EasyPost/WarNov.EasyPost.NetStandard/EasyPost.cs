@@ -1,7 +1,6 @@
-﻿using Newtonsoft.Json;
-using System;
-using System.Net.Http;
+﻿using System.Net.Http;
 using System.Text;
+using System.Text.Json;
 
 namespace WarNov.EasyPost.NetStandard
 {
@@ -14,12 +13,12 @@ namespace WarNov.EasyPost.NetStandard
         /// <param name="payload">The info to be sent</param>
         /// <returns>The HttpResponseMessage with the result of the operation</returns>
         public static HttpResponseMessage Post(string url, object payload)
-        {           
+        {
             using (HttpClient client = new HttpClient())
             {
-                var content = new StringContent(JsonConvert.SerializeObject(payload), Encoding.UTF8, "application/json");
+                var content = new StringContent(JsonSerializer.Serialize(payload), Encoding.UTF8, "application/json");
                 return client.PostAsync(url, content).Result;
-            }           
-        }            
+            }
+        }
     }
 }

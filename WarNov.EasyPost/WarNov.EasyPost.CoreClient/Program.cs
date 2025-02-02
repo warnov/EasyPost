@@ -1,12 +1,14 @@
 ﻿using System;
+using WarNov.EasyPost.NetStandard;
 
-namespace WarNov.EasyPost.CoreClient
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+        string url = "https://webhook.site/946815b8-50ea-4e2e-8315-4a3e45094f03";
+        var payload = new { Name = "John Doe", Age = 30 };
+
+        var response = EasyPost.Post(url, payload);
+        Console.WriteLine(response.StatusCode);
     }
 }

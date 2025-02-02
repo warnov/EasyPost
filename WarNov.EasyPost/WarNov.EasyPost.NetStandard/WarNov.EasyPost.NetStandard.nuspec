@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<package>
+	<metadata>
+		<id>WarNov.EasyPost.NetStandard</id>
+		<version>2.0.0</version>
+		<authors>WarNov</authors>
+		<owners>WarNov</owners>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<license type="expression">MIT</license>
+		<description>Makes extremely easy to send a JSON object to an HTTP Endpoint via POST</description>
+		<releaseNotes>Second Release. Now using native JSON management instead of Newtonsoft</releaseNotes>
+		<copyright>Copyright © 2025</copyright>
+		<tags>post c# netstandard json object</tags>
+		<projectUrl>https://github.com/warnov/EasyPost</projectUrl>
+		<repository type="git" url="https://github.com/warnov/EasyPost" />
+		<dependencies>
+			<group targetFramework=".NETStandard2.0">
+				<dependency id="System.Text.Json" version="9.0.1" />
+			</group>
+		</dependencies>
+		<readme>docs\readme.md</readme>
+	</metadata>
+	<files>
+		<file src="bin\Release\netstandard2.0\WarNov.EasyPost.NetStandard.dll" target="lib\netstandard2.0\WarNov.EasyPost.NetStandard.dll" />
+		<file src="readme.md" target="docs\" />
+	</files>
+</package>
