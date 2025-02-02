@@ -9,7 +9,7 @@
 		<RepositoryUrl>https://github.com/warnov/EasyPost</RepositoryUrl>
 		<PackageTags>post c# netstandard json object</PackageTags>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageReadmeFile>readme.md</PackageReadmeFile>
 		<Title>Easy Http Post for Net Standard 2.0</Title>
 		<VersionPrefix>2.0.0.0</VersionPrefix>
 		<AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -19,10 +19,10 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<None Include="..\..\README.md">
-			<Pack>True</Pack>
-			<PackagePath>\</PackagePath>
-		</None>
+	  <None Include="..\readme.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
 	</ItemGroup>
 
 	<ItemGroup>
